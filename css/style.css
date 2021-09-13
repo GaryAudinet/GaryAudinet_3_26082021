@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+footer {
+  background-color: #383838;
+  color: white;
+}
+footer a {
+  color: white;
+}
+
+.class_bottom {
+  margin: 0;
+  padding: 32px 5%;
+  list-style-type: none;
+}
+
+.titre_footer {
+  font-family: "Shrikhand", sans-serif;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.li_footer {
+  padding-bottom: 8px;
+}
+
+.footer_icon {
+  padding-right: 8px;
+  font-size: small;
+}
+
+.fa-utensils {
+  padding-right: 13px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: 22px 0 10px 0;
+  background-color: #f5f5f5;
+}
+
+/* ~ index ~ */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.localisation {
+  background-color: #e8e8e8;
+  border-top: solid 2px #b8b8b8;
+}
+
+.localisation_ville {
+  display: flex;
+  justify-content: center;
+}
+.localisation_ville .fa-map-marker-alt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 16px;
+}
+.localisation_ville h2 {
+  margin: 14px 0 16px 0;
+  font-size: 16px;
+}
+
+.presentation {
+  background-color: #f5f5f5;
+  padding: 40px 2%;
+  text-align: center;
+}
+.presentation h2 {
+  margin: 0;
+}
+.presentation p {
+  font-size: 18px;
+  font-weight: 300;
+  color: gray;
+}
+
+.button_exploration {
+  border: none;
+  color: white;
+  border-radius: 32px;
+  padding: 16px 25px;
+  font-size: 16px;
+  background: linear-gradient(175deg, #ff79da, #9356dc);
+  box-shadow: 2px 2px 6px #b8b8b8;
+  margin: 16px 0;
+}
+
+.fonctionnement {
+  padding: 16px 5%;
+}
+
+.cadre_fonctionnement {
+  background-color: #f5f5f5;
+  border-radius: 16px;
+  box-shadow: 2px 2px 6px 0 #b8b8b8;
+  align-items: center;
+  padding: 26px 0;
+  margin-bottom: 22px;
+  display: flex;
+}
+
+.nombre_fonctionnement {
+  background-color: #9356dc;
+  color: white;
+  border-radius: 100%;
+  height: 25px;
+  width: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -12px;
+}
+
+.fonctionnement_icon {
+  color: #9e9c9c;
+  padding: 0 26px;
+  font-size: larger;
+}
+
+.fonctionnement_text {
+  font-weight: 500;
+}
+
+/* index ~ section restaurant */
+.restaurant {
+  background-color: #f5f5f5;
+  padding: 64px 5%;
+}
+.restaurant h2 {
+  margin: 0;
+}
+.restaurant a {
+  color: black;
+}
+
+.restaurant_vignette_cadre {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 2px 2px 6px 0 #b8b8b8;
+  margin-top: 20px;
+  position: relative;
+}
+
+.restaurant_image {
+  object-fit: cover;
+  height: 180px;
+  width: 100%;
+  border-radius: 16px 16px 0 0;
+}
+
+.nouveau {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background-color: #99E2D0;
+  font-weight: 500;
+  font-size: 14px;
+  color: #178f5d;
+  padding: 8px 12px;
+  border-radius: 2px;
+}
+
+.lien_text {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px 16px 16px;
+}
+.lien_text h3 {
+  margin: 0;
+}
+.lien_text p {
+  margin: 0;
+  padding-top: 4px;
+}
+
+.favoris {
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-right: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

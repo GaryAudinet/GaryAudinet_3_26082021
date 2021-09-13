@@ -30,7 +30,7 @@
     <main>
 
         <section class="localisation">
-            <div class="localistion_ville">
+            <div class="localisation_ville">
                 <i class="fas fa-map-marker-alt"></i>
                 <h2>Paris, Belleville</h2>
             </div>
@@ -38,7 +38,7 @@
 
 
         <section class="presentation">
-            <h2>Réservez le menu qui vous convient</h2>
+            <h2>Réservez le menu qui <br/> vous convient</h2>
             <p>Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
             <button class="button_exploration">Explorer nos restaurants</button>
         </section>
@@ -69,7 +69,7 @@
 
             <h2>Restaurants</h2>
 
-            <section id="restaurant_contenu">
+            <section class="restaurant_contenu">
 
                 <a class="lien_restaurant" href="la_palette_du_gout.html">
                   <div class="restaurant_vignette_cadre">
@@ -79,11 +79,15 @@
                     src="img/restaurants/la_palette_du_gout.jpg" 
                     alt="La palette du goût"
                     />
-                    <h3>La palette du goût</h3>
-                    <p>Ménilmontant</p>
-                    <span class="favoris">
+                    <div class="lien_text">
+                      <div>
+                        <h3>La palette du goût</h3>
+                        <p>Ménilmontant</p>
+                      </div>
+                      <span class="favoris">
                         <i class="far fa-heart coeur"></i>
-                    </span>
+                      </span>
+                    </div>
                   </div>
                 </a>
 
@@ -95,11 +99,15 @@
                       src="img/restaurants/la_note_enchantee.jpg" 
                       alt="La note enchantée"
                       />
-                      <h3>La note enchantée</h3>
-                      <p>Charonne</p>
-                      <span class="favoris">
-                        <i class="far fa-heart coeur"></i>
-                      </span>
+                      <div class="lien_text">
+                        <div>
+                          <h3>La note enchantée</h3>
+                          <p>Charonne</p>
+                        </div>
+                        <span class="favoris">
+                          <i class="far fa-heart coeur"></i>
+                        </span>
+                      </div>
                     </div>
                 </a>
 
@@ -110,11 +118,15 @@
                       src="img/restaurants/a_la_francaise.jpg" 
                       alt="À la française"
                       />
-                      <h3>À la française</h3>
-                      <p>Cité Rouge</p>
-                      <span class="favoris">
-                        <i class="far fa-heart coeur"></i>
-                      </span>
+                      <div class="lien_text">
+                        <div>
+                          <h3>À la française</h3>
+                          <p>Cité Rouge</p>
+                        </div>
+                        <span class="favoris">
+                          <i class="far fa-heart coeur"></i>
+                        </span>
+                      </div>
                     </div>
                 </a>
                 
@@ -125,11 +137,15 @@
                       src="img/restaurants/le_delice_des_sens.jpg" 
                       alt="Le délice des sens"
                       />
-                      <h3>Le délice des sens</h3>
-                      <p>Folie-Méricourt</p>
-                      <span class="favoris">
-                        <i class="far fa-heart coeur"></i>
-                      </span>
+                      <div class="lien_text">
+                        <div>
+                          <h3>Le délice des sens</h3>
+                          <p>Folie-Méricourt</p>
+                        </div>
+                        <span class="favoris">
+                          <i class="far fa-heart coeur"></i>
+                        </span>
+                      </div>
                     </div>
                 </a>
 
@@ -141,14 +157,14 @@
 
     <footer>
 
-        <div id="bottom">
+        <div class="bottom">
 
             <ul class="class_bottom">
               <li class="titre_footer">ohmyfood</li>
-              <li><a href="#"><i class="fas fa-utensils"></i>Proposer un restaurant</a></li>
-              <li><a href="#"><i class="fas fa-hands-helping"></i>Devenir partenaire</a></li>
-              <li><a href="#">Mentions légales</a></li>
-              <li><a href="mailto:contact@ohmyfood.com">Contact</a></li>
+              <li class="li_footer"><a href="#"><i class="fas fa-utensils footer_icon"></i><span>Proposer un restaurant</span></a></li>
+              <li class="li_footer"><a href="#"><i class="fas fa-hands-helping footer_icon"></i><span>Devenir partenaire</span></a></li>
+              <li class="li_footer"><a href="#">Mentions légales</a></li>
+              <li class="li_footer"><a href="mailto:contact@ohmyfood.com">Contact</a></li>
             </ul>
 
     </footer>
