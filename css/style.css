@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+/* --- footer --- */
 footer {
   background-color: #383838;
   color: white;
@@ -33,12 +34,21 @@ footer a {
   padding-right: 13px;
 }
 
+/* footer ~media queries */
+@media all and (min-width: 768px) and (max-width: 1200px) {
+  .class_bottom {
+    padding: 32px 3%;
+  }
+}
+
+/* --- header --- */
 header {
   display: flex;
   justify-content: center;
   padding: 12px 0 6px 0;
   background-color: #f5f5f5;
   position: relative;
+  box-shadow: 0 0 6px 0 #868686;
 }
 
 .retour {
@@ -68,9 +78,10 @@ a {
   text-decoration: none;
 }
 
+/* index ~ main */
+/* index ~ section localisation */
 .localisation {
   background-color: #e8e8e8;
-  border-top: solid 2px #b8b8b8;
 }
 
 .localisation_ville {
@@ -84,10 +95,11 @@ a {
   padding-right: 16px;
 }
 .localisation_ville h2 {
-  margin: 14px 0 16px 0;
+  margin: 16px 0 16px 0;
   font-size: 16px;
 }
 
+/* index ~ section presentation */
 .presentation {
   background-color: #f5f5f5;
   padding: 40px 2%;
@@ -113,6 +125,7 @@ a {
   margin: 16px 0;
 }
 
+/* index ~ section fonctionnement */
 .fonctionnement {
   padding: 16px 5%;
 }
@@ -209,6 +222,41 @@ a {
   padding-right: 10px;
 }
 
+/* index ~ media queries */
+@media all and (min-width: 768px) and (max-width: 1200px) {
+  .presentation br {
+    display: none;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1200px) {
+  .fonctionnement {
+    padding: 16px 30%;
+  }
+  .fonctionnement h2 {
+    text-align: center;
+  }
+}
+
+.restaurant {
+  padding: 64px 3%;
+}
+
+@media all and (min-width: 768px) and (max-width: 1200px) {
+  .restaurant_contenu {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1200px) {
+  .lien_restaurant {
+    width: 49%;
+  }
+}
+
 .restaurant_image_menu {
   width: 100%;
   object-fit: cover;
@@ -302,6 +350,27 @@ a {
   background: linear-gradient(175deg, #ff79da, #9356dc);
   box-shadow: 2px 2px 6px #b8b8b8;
   margin: 16px 0;
+}
+
+/* menu ~ media queries */
+@media all and (min-width: 768px) and (max-width: 1200px) {
+  .restaurant_menu {
+    padding: 32px 3%;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+  .restaurant_contenu_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+  .restaurant_contenu_menu {
+    width: 30%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

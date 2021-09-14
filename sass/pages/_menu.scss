@@ -102,3 +102,28 @@
     box-shadow: 2px 2px 6px #b8b8b8;
     margin: 16px 0;
 }
+
+/* menu ~ media queries */
+
+.restaurant_menu
+{
+    @include tablet{
+        padding: 32px 3%;
+    }
+}
+
+.restaurant_contenu_box
+{
+    @include tablet_p{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+.restaurant_contenu_menu
+{
+    @include tablet_p{
+        width: 30%;
+    }
+}

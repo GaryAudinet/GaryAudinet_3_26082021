@@ -12,6 +12,13 @@
     }
 }
 
+@mixin tablet_p{
+    @media all and (min-width: map-get($breakpoints, tablet)) and (max-width: map-get($breakpoints, desktop)) and (orientation: landscape)
+    {
+        @content;
+    }
+}
+
 @mixin desktop {
     @media all and (min-width: map-get($breakpoints, desktop))
     {

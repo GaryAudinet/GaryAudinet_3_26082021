@@ -11,10 +11,13 @@ a
     text-decoration: none;
 }
 
+/* index ~ main */
+
+/* index ~ section localisation */
+
 .localisation
 {
     background-color: #e8e8e8;
-    border-top: solid 2px #b8b8b8;
 }
 
 .localisation_ville
@@ -28,10 +31,12 @@ justify-content: center;
         padding-right: 16px;
     }
     h2{
-        margin: 14px 0 16px 0;
+        margin: 16px 0 16px 0;
         font-size: 16px;
     }
 }
+
+/* index ~ section presentation */
 
 .presentation
 {
@@ -59,6 +64,8 @@ justify-content: center;
     box-shadow: 2px 2px 6px #b8b8b8;
     margin: 16px 0;
 }
+
+/* index ~ section fonctionnement */
 
 .fonctionnement
 {
@@ -170,6 +177,49 @@ justify-content: center;
 
 
 
+/* index ~ media queries */
+
+
+.presentation
+{
+    @include tablet{
+        br{
+            display: none;
+        }
+    }
+}
+
+.fonctionnement
+{
+    @include tablet{
+        padding: 16px 30%;
+            h2{
+                text-align: center;
+            }
+    }
+}
+
+.restaurant
+{
+    padding: 64px 3%;
+}
+
+.restaurant_contenu
+{
+    @include tablet{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+.lien_restaurant
+{
+    @include tablet{
+        width: 49%;
+    }
+}
 
 
 
