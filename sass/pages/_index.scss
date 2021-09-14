@@ -176,7 +176,6 @@ justify-content: center;
 }
 
 
-
 /* index ~ media queries */
 
 
@@ -186,6 +185,11 @@ justify-content: center;
         br{
             display: none;
         }
+    }
+    @include desktop{
+        br{
+            display: none;
+        }   
     }
 }
 
@@ -197,16 +201,52 @@ justify-content: center;
                 text-align: center;
             }
     }
+    @include desktop{
+        padding: 16px 2%;
+            h2{
+                text-align: center;
+            }
+        }
+}
+
+.fonctionnement_vignette
+{
+    @include desktop{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+.cadre_fonctionnement
+{
+    @include desktop{
+        width: 25%;
+            .fonctionnement_icon{
+                padding: 0 12%;
+            }
+    }
 }
 
 .restaurant
 {
-    padding: 64px 3%;
+    @include tablet{
+        padding: 64px 3%;
+    }
+    @include desktop{
+        padding: 64px 2%;
+    }
+    
 }
 
 .restaurant_contenu
 {
     @include tablet{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    @include desktop{
         width: 100%;
         display: flex;
         flex-wrap: wrap;
@@ -218,6 +258,9 @@ justify-content: center;
 {
     @include tablet{
         width: 49%;
+    }
+    @include desktop{
+        width: 24%;
     }
 }
 

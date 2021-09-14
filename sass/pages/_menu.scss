@@ -105,10 +105,35 @@
 
 /* menu ~ media queries */
 
+.restaurant_image_menu
+{
+    @include tablet{
+        height: 300px;
+    }
+    @include tablet_p{
+        height: 350px;
+    }
+    @include desktop{
+        height: 500px;
+    }
+}
+
+
 .restaurant_menu
 {
     @include tablet{
         padding: 32px 3%;
+    }
+    @include desktop{
+        padding: 32px 2%;
+    }
+}
+
+.restaurant_titre
+{
+    @include desktop{
+        padding-left: 2%;
+        padding-right: 1%;
     }
 }
 
@@ -119,11 +144,19 @@
         flex-wrap: wrap;
         justify-content: space-between;
     }
+    @include desktop{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 }
 
 .restaurant_contenu_menu
 {
     @include tablet_p{
+        width: 30%;
+    }
+    @include desktop{
         width: 30%;
     }
 }

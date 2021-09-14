@@ -12,16 +12,22 @@ footer
 .class_bottom
 {
     margin: 0;
-    padding: 32px 5%;
+    padding: 32px 5%;     
+}
+
+.ul_bottom
+{
     list-style-type: none;
-        
+    padding: 0;
 }
 
 .titre_footer
 {
     font-family: "Shrikhand", sans-serif;
     font-size: 18px;
-    padding-bottom: 20px;
+    font-weight: normal;
+    padding-bottom: 0px;
+    margin: 0;
 }
 
 .li_footer{
@@ -46,5 +52,46 @@ footer
     @include tablet{
         padding: 32px 3%;
     }
+    @include desktop{
+        padding: 32px 2%;
+    }
 }
 
+.titre_footer
+{
+    @include tablet_p{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    @include desktop{
+        text-align: center;
+        font-size: 24px;
+        font-weight: 300;
+    }
+}
+
+.ul_bottom
+{
+    @include tablet_p{
+        display: flex;
+        justify-content: center;
+    }
+    @include desktop{
+        display: flex;
+        justify-content: center;   
+    }
+}
+
+.li_footer
+{
+    @include tablet_p{
+        font-size: 16px;
+        padding-right: 50px;
+    }
+
+    @include desktop{
+        font-size: 18px;
+        padding-right: 50px;
+    }
+}
