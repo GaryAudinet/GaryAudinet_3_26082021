@@ -2,6 +2,26 @@ header
 {
     display: flex;
     justify-content: center;
-    padding: 22px 0 10px 0;
+    padding: 12px 0 6px 0;
     background-color: #f5f5f5;
+    position: relative;
+}
+
+.retour
+{
+    position: absolute;
+    bottom: 10px;
+    left: 14px; 
+    color: #383838;
+    font-size: large;
+}
+
+.logo
+{
+    font-family: "Shrikhand", sans-serif;
+        h1{
+            margin: 0;
+            font-weight: 500;
+            font-size: 32px;
+        }
 }
