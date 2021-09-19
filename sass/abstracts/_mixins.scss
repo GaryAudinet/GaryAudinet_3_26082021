@@ -1,3 +1,5 @@
+/* mixin */
+
 @mixin mobile {
     @media all and (max-width: map-get($breakpoints, tablet))
     {
