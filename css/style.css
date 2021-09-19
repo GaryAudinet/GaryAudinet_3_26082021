@@ -74,6 +74,21 @@
     transform: rotate(360deg);
   }
 }
+/* boutons */
+.button_exploration:hover {
+  box-shadow: 12px 12px 10px #b8b8b8;
+  filter: brightness(110%);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.btn_com:hover {
+  box-shadow: 12px 12px 10px #b8b8b8;
+  filter: brightness(110%);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
 /* police */
 /* --- footer --- */
 footer {
@@ -254,8 +269,8 @@ a {
   border-radius: 32px;
   padding: 16px 25px;
   font-size: 16px;
-  background: linear-gradient(175deg, #ff79da, #9356dc);
-  box-shadow: 2px 2px 6px #b8b8b8;
+  background: linear-gradient(175deg, #FF79DA, #9356DC);
+  box-shadow: 4px 4px 10px #b8b8b8;
   margin: 16px 0;
 }
 
@@ -275,7 +290,7 @@ a {
 }
 
 .nombre_fonctionnement {
-  background-color: #9356dc;
+  background-color: #9356DC;
   color: white;
   border-radius: 100%;
   height: 25px;
@@ -533,7 +548,7 @@ a {
   border-radius: 32px;
   padding: 16px 50px;
   font-size: 16px;
-  background: linear-gradient(175deg, #ff79da, #9356dc);
+  background: linear-gradient(175deg, #FF79DA, #9356DC);
   box-shadow: 2px 2px 6px #b8b8b8;
   margin: 16px 0;
 }

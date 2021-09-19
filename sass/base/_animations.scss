@@ -2,7 +2,7 @@
 
 /* spinner */
 
-.chargement{
+.chargement {
   animation: load 3s forwards;
   background-color: white;
   position: fixed;
@@ -70,12 +70,27 @@
       top:2vmin;
       width:12vmin;
     }
-  }
+}
   
-  @keyframes spin {
-    100% {
-      transform:rotate(360deg);
-    }
+@keyframes spin {
+  100% {
+    transform:rotate(360deg);
   }
+}
+
+/* boutons */
+
+.button_exploration:hover{
+  box-shadow: 12px 12px 10px $color_shadow;
+  filter: brightness(110%);
+  transition: 0.2s;
+  cursor: pointer;
+} 
 
 
+.btn_com:hover {
+  box-shadow: 12px 12px 10px $color_shadow;
+  filter: brightness(110%);
+  transition: 0.2s;
+  cursor: pointer;
+}
