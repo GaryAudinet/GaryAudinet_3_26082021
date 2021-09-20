@@ -97,6 +97,38 @@
   color: #9356DC;
 }
 
+/* coeur */
+.coeur_vide {
+  position: absolute;
+  z-index: 1;
+}
+.coeur_vide:hover {
+  animation: vide 1s forwards linear;
+  cursor: pointer;
+}
+.coeur_vide:hover + .coeur {
+  opacity: 1;
+  transform: scale(1);
+  transition: transform 1s linear;
+}
+
+.coeur_plein {
+  position: absolute;
+  transform: scale(0);
+  opacity: 0;
+  background: linear-gradient(#9356DC, #FF79DA);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+@keyframes vide {
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 /* police */
 /* --- footer --- */
 footer {
@@ -377,6 +409,7 @@ a {
   justify-content: center;
   display: flex;
   padding-right: 10px;
+  position: relative;
 }
 
 /* index ~ media queries */
