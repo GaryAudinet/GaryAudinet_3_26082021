@@ -81,7 +81,7 @@
 /* boutons */
 
 .button_exploration:hover{
-  box-shadow: 12px 12px 10px $color_shadow;
+  box-shadow: 6px 12px 10px $color_shadow;
   filter: brightness(110%);
   transition: 0.2s;
   cursor: pointer;
@@ -89,8 +89,17 @@
 
 
 .btn_com:hover {
-  box-shadow: 12px 12px 10px $color_shadow;
+  box-shadow: 6px 12px 10px $color_shadow;
   filter: brightness(110%);
   transition: 0.2s;
   cursor: pointer;
+}
+
+/* fonctionnement */
+
+.cadre_fonctionnement:hover{
+  background-color: lighten($color_primaire,35%);
+    .fonctionnement_icon{
+      color: $color_primaire;
+    }
 }

@@ -76,17 +76,25 @@
 }
 /* boutons */
 .button_exploration:hover {
-  box-shadow: 12px 12px 10px #b8b8b8;
+  box-shadow: 6px 12px 10px #b8b8b8;
   filter: brightness(110%);
   transition: 0.2s;
   cursor: pointer;
 }
 
 .btn_com:hover {
-  box-shadow: 12px 12px 10px #b8b8b8;
+  box-shadow: 6px 12px 10px #b8b8b8;
   filter: brightness(110%);
   transition: 0.2s;
   cursor: pointer;
+}
+
+/* fonctionnement */
+.cadre_fonctionnement:hover {
+  background-color: #f2eafb;
+}
+.cadre_fonctionnement:hover .fonctionnement_icon {
+  color: #9356DC;
 }
 
 /* police */
@@ -270,7 +278,7 @@ a {
   padding: 16px 25px;
   font-size: 16px;
   background: linear-gradient(175deg, #FF79DA, #9356DC);
-  box-shadow: 4px 4px 10px #b8b8b8;
+  box-shadow: 2px 4px 10px #b8b8b8;
   margin: 16px 0;
 }
 
@@ -281,8 +289,8 @@ a {
 
 .cadre_fonctionnement {
   background-color: #f5f5f5;
-  border-radius: 16px;
-  box-shadow: 2px 2px 6px 0 #b8b8b8;
+  border-radius: 20px;
+  box-shadow: 2px 4px 15px -4px #b8b8b8;
   align-items: center;
   padding: 26px 0;
   margin-bottom: 22px;
@@ -326,7 +334,7 @@ a {
 .restaurant_vignette_cadre {
   background-color: white;
   border-radius: 16px;
-  box-shadow: 2px 2px 6px 0 #b8b8b8;
+  box-shadow: 2px 4px 15px -4px #b8b8b8;
   margin-top: 20px;
   position: relative;
 }
@@ -497,7 +505,7 @@ a {
 .restaurant_article {
   background-color: white;
   border-radius: 16px;
-  box-shadow: 2px 2px 6px 0 #b8b8b8;
+  box-shadow: 2px 4px 15px -4px #b8b8b8;
   display: flex;
   justify-content: space-between;
   margin-bottom: 16px;
@@ -549,7 +557,7 @@ a {
   padding: 16px 50px;
   font-size: 16px;
   background: linear-gradient(175deg, #FF79DA, #9356DC);
-  box-shadow: 2px 2px 6px #b8b8b8;
+  box-shadow: 2px 4px 10px #b8b8b8;
   margin: 16px 0;
 }
 
