@@ -125,13 +125,17 @@
   transform:scale(0);
   opacity: 0;
   background: linear-gradient($color_primaire, $color_secondaire);
-  -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
   
 }
 
 
 @keyframes vide {
-  95% {opacity: 1;}
-  100% {opacity: 0;}
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
