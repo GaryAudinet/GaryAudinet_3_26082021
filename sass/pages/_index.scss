@@ -176,6 +176,10 @@ justify-content: center;
     position: relative;
 }
 
+.restaurant_vignette_cadre:hover{
+    box-shadow: 6px 12px 10px $color_shadow;
+    transition: 0.3s;
+}
 
 /* index ~ media queries */
 

@@ -45,6 +45,11 @@ footer
     padding-right: 13px;
 }
 
+footer li a:hover{
+    color: $color_tertiaire;
+}
+
+
 /* footer ~ media queries */
 
 .class_bottom
