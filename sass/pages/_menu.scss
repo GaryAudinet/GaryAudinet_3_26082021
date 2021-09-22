@@ -80,15 +80,9 @@
 .restaurant_prix
 {
     font-weight: bold;
-    font-size: 15px;
-    position: absolute;
-    right: 16px;
-    bottom: -1px;
-}
-
-.check
-{
-    display: none;
+    font-size: 14px;
+    display: flex;
+    align-items: flex-end;
 }
 
 .btn
