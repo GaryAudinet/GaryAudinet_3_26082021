@@ -1,7 +1,7 @@
 /* mixin */
 
-@mixin mobile {
-    @media all and (max-width: map-get($breakpoints, tablet))
+@mixin mobile_p {
+    @media all and (max-width: map-get($breakpoints, tablet)) and (orientation: landscape)
     {
         @content;
     }

@@ -121,6 +121,9 @@
 
 .restaurant_menu
 {
+    @include mobile_p{
+        padding: 32px 3%;
+    }
     @include tablet{
         padding: 32px 3%;
     }

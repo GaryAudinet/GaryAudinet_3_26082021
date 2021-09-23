@@ -306,6 +306,11 @@ footer li a:hover {
 }
 
 /* footer ~ media queries */
+@media all and (max-width: 768px) and (orientation: landscape) {
+  .class_bottom {
+    padding: 32px 3%;
+  }
+}
 @media all and (min-width: 768px) and (max-width: 1200px) {
   .class_bottom {
     padding: 32px 3%;
@@ -557,6 +562,11 @@ a {
 }
 
 /* index ~ media queries */
+@media all and (max-width: 768px) and (orientation: landscape) {
+  .presentation br {
+    display: none;
+  }
+}
 @media all and (min-width: 768px) and (max-width: 1200px) {
   .presentation br {
     display: none;
@@ -568,9 +578,25 @@ a {
   }
 }
 
+@media all and (max-width: 768px) and (orientation: landscape) {
+  .fonctionnement {
+    padding: 16px 25%;
+  }
+  .fonctionnement h2 {
+    text-align: center;
+  }
+}
 @media all and (min-width: 768px) and (max-width: 1200px) {
   .fonctionnement {
     padding: 16px 30%;
+  }
+  .fonctionnement h2 {
+    text-align: center;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+  .fonctionnement {
+    padding: 16px 2%;
   }
   .fonctionnement h2 {
     text-align: center;
@@ -585,6 +611,12 @@ a {
   }
 }
 
+@media all and (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+  .fonctionnement_vignette {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
 @media all and (min-width: 1200px) {
   .fonctionnement_vignette {
     display: flex;
@@ -592,6 +624,14 @@ a {
   }
 }
 
+@media all and (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+  .cadre_fonctionnement {
+    width: 28%;
+  }
+  .cadre_fonctionnement .fonctionnement_icon {
+    padding: 0 8%;
+  }
+}
 @media all and (min-width: 1200px) {
   .cadre_fonctionnement {
     width: 25%;
@@ -601,9 +641,19 @@ a {
   }
 }
 
+@media all and (max-width: 768px) and (orientation: landscape) {
+  .restaurant {
+    padding: 64px 3%;
+  }
+}
 @media all and (min-width: 768px) and (max-width: 1200px) {
   .restaurant {
     padding: 64px 3%;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+  .restaurant {
+    padding: 64px 2%;
   }
 }
 @media all and (min-width: 1200px) {
@@ -612,6 +662,14 @@ a {
   }
 }
 
+@media all and (max-width: 768px) and (orientation: landscape) {
+  .restaurant_contenu {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
 @media all and (min-width: 768px) and (max-width: 1200px) {
   .restaurant_contenu {
     width: 100%;
@@ -629,9 +687,19 @@ a {
   }
 }
 
+@media all and (max-width: 768px) and (orientation: landscape) {
+  .lien_restaurant {
+    width: 49%;
+  }
+}
 @media all and (min-width: 768px) and (max-width: 1200px) {
   .lien_restaurant {
     width: 49%;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+  .lien_restaurant {
+    width: 24%;
   }
 }
 @media all and (min-width: 1200px) {
@@ -750,6 +818,11 @@ a {
   }
 }
 
+@media all and (max-width: 768px) and (orientation: landscape) {
+  .restaurant_menu {
+    padding: 32px 3%;
+  }
+}
 @media all and (min-width: 768px) and (max-width: 1200px) {
   .restaurant_menu {
     padding: 32px 3%;

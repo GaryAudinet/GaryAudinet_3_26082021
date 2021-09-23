@@ -190,6 +190,11 @@ align-items: center;
 
 .presentation
 {
+    @include mobile_p {
+        br{
+            display: none;
+        }
+    }
     @include tablet{
         br{
             display: none;
@@ -204,8 +209,20 @@ align-items: center;
 
 .fonctionnement
 {
+    @include mobile_p{
+        padding: 16px 25%;
+            h2{
+                text-align: center;
+            }
+    }
     @include tablet{
         padding: 16px 30%;
+            h2{
+                text-align: center;
+            }
+    }
+    @include tablet_p{
+        padding: 16px 2%;
             h2{
                 text-align: center;
             }
@@ -220,6 +237,10 @@ align-items: center;
 
 .fonctionnement_vignette
 {
+    @include tablet_p{
+        display: flex;
+        justify-content: space-evenly;
+    }
     @include desktop{
         display: flex;
         justify-content: space-evenly;
@@ -228,6 +249,12 @@ align-items: center;
 
 .cadre_fonctionnement
 {
+    @include tablet_p{
+        width: 28%;
+            .fonctionnement_icon{
+                padding: 0 8%;
+            }
+    }
     @include desktop{
         width: 25%;
             .fonctionnement_icon{
@@ -238,8 +265,14 @@ align-items: center;
 
 .restaurant
 {
+    @include mobile_p{
+        padding: 64px 3%;
+    }
     @include tablet{
         padding: 64px 3%;
+    }
+    @include tablet_p{
+        padding: 64px 2%;
     }
     @include desktop{
         padding: 64px 2%;
@@ -249,6 +282,12 @@ align-items: center;
 
 .restaurant_contenu
 {
+    @include mobile_p{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
     @include tablet{
         width: 100%;
         display: flex;
@@ -265,8 +304,14 @@ align-items: center;
 
 .lien_restaurant
 {
+    @include mobile_p{
+        width: 49%;
+    }
     @include tablet{
         width: 49%;
+    }
+    @include tablet_p{
+        width: 24%;
     }
     @include desktop{
         width: 24%;
