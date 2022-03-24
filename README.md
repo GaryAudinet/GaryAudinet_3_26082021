@@ -1,4 +1,4 @@
-# GaryAudinet_3_26082021 - Projet: Dynamisez une page web avec des animations CSS
+# Projet: Dynamisez une page web avec des animations CSS
 
 ## Cahier des charges
 
@@ -24,4 +24,3 @@ Fonctionnalités :
 
 ## GitHub Pages
 https://garyaudinet.github.io/GaryAudinet_3_26082021/
-
